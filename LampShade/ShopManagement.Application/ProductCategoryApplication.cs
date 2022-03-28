@@ -60,7 +60,7 @@ namespace ShopManagement.Application
 
         public ProductCategoryViewModel GetDetails(int Id)
         {
-            var productCategory = productCategoryRepository.GetDetails(Id);
+            var productCategory = productCategoryRepository.Get(Id);
             return new ProductCategoryViewModel
             {
                 CreationDate = productCategory.CreationDate.ToString(),
