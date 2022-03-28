@@ -1,4 +1,5 @@
-﻿using ShopManagement.Domain.ProductCategoryAgg;
+﻿using Framework.Application;
+using ShopManagement.Domain.ProductCategoryAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,9 @@ namespace ShopManagement.Application.Contracts.ProductCategory
 {
     public interface IProductCategoryApplication
     {
-        void Create(CreateProductCategoryModel command);
-        void Edit(EditProductCategoryModel command);
-        ProductCategoryModel
+        OperationResult Create(CreateProductCategoryModel command);
+        OperationResult Edit(EditProductCategoryModel command);
+        ProductCategoryViewModel GetDetails(int Id);
+        List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     }
 }

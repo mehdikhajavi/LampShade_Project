@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b49d43cc-9d6e-4acd-bb0d-fb2427eafa10": {
+      "ProjectGuid": "b49d43cc-9d6e-4acd-bb0d-fb2427eafa10",
+      "DisplayName": "0_Framework",
+      "ColorIndex": 0
+    },
+    "3166bf2d-721c-4975-9639-1e4993ce92b0": {
+      "ProjectGuid": "3166bf2d-721c-4975-9639-1e4993ce92b0",
+      "DisplayName": "Framework",
+      "ColorIndex": 1
+    },
+    "9a130209-12f2-4589-801e-67184fca0a9f": {
+      "ProjectGuid": "9a130209-12f2-4589-801e-67184fca0a9f",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 2
+    },
+    "0b1e289d-4994-4c78-ab54-da2bce7b18de": {
+      "ProjectGuid": "0b1e289d-4994-4c78-ab54-da2bce7b18de",
+      "DisplayName": "ShopManagement.Application.Contracts",
+      "ColorIndex": 3
+    },
+    "9ba553b9-114b-4da2-b1a9-899ea35fe62a": {
+      "ProjectGuid": "9ba553b9-114b-4da2-b1a9-899ea35fe62a",
+      "DisplayName": "ShopManagement.Application",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

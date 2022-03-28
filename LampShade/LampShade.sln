@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Application", "SM.Applic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application.Contracts", "ShopManagement.Application.Contracts\ShopManagement.Application.Contracts.csproj", "{0B1E289D-4994-4C78-AB54-DA2BCE7B18DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application", "ShopManagement.Application\ShopManagement.Application.csproj", "{9BA553B9-114B-4DA2-B1A9-899EA35FE62A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0B1E289D-4994-4C78-AB54-DA2BCE7B18DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B1E289D-4994-4C78-AB54-DA2BCE7B18DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B1E289D-4994-4C78-AB54-DA2BCE7B18DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA553B9-114B-4DA2-B1A9-899EA35FE62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA553B9-114B-4DA2-B1A9-899EA35FE62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA553B9-114B-4DA2-B1A9-899EA35FE62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA553B9-114B-4DA2-B1A9-899EA35FE62A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{9A130209-12F2-4589-801E-67184FCA0A9F} = {71F21661-B8BE-4E8D-B822-A78051E56FCD}
 		{9C83C221-4607-4A5C-94B3-1066D9613730} = {4EA79236-3DEC-460C-90A7-D86FE5E11246}
 		{0B1E289D-4994-4C78-AB54-DA2BCE7B18DE} = {9C83C221-4607-4A5C-94B3-1066D9613730}
+		{9BA553B9-114B-4DA2-B1A9-899EA35FE62A} = {9C83C221-4607-4A5C-94B3-1066D9613730}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2161450C-7331-442F-AB55-D7C55B68C795}
