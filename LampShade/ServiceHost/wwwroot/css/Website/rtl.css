@@ -1,0 +1,1468 @@
+﻿body {
+  text-align: right;
+}
+
+.form-control {
+  text-align: right;
+}
+
+.pl-20 {
+  padding-left: unset;
+  padding-right: 20px;
+}
+
+.pr-20 {
+  padding-left: 20px;
+  padding-right: unset;
+}
+
+.ml-20 {
+  margin-left: unset;
+  margin-right: 20px;
+}
+
+/*=================================
+Top Header Area
+====================================*/
+.header-left {
+  float: right;
+}
+
+.header-left ul li {
+  margin-left: 30px;
+}
+
+.header-left ul li::before {
+  left: -17px;
+  right: auto;
+}
+
+.header-left ul li:last-child {
+  margin-left: 0;
+}
+
+.head-right {
+  float: left;
+}
+
+.head-right .header-btn {
+  margin-left: unset;
+  margin-right: 30px;
+}
+
+.head-right .languages {
+  padding-right: 0;
+  padding-left: unset;
+}
+
+.head-right .languages .nice-select {
+  text-align: left !important;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.head-right .languages .nice-select::after {
+  left: 10px;
+  right: auto;
+}
+
+.head-right .languages .nice-select .option {
+  text-align: right;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.head-right .social-link li {
+  margin-left: 30px;
+  margin-right: unset;
+}
+
+.head-right .social-link li::before {
+  left: -17px;
+  right: auto;
+}
+
+.head-right .social-link li:last-child {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/*=================================
+Top Header Area End
+====================================*/
+/*=================================
+Navbar Area 
+====================================*/
+.desktop-nav .navbar .navbar-nav .nav-item:last-child a {
+  margin-right: 0;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item:first-child a {
+  margin-left: 0;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a i {
+  float: left;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  right: 245px;
+  left: auto;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+  right: 245px;
+  left: auto;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+  right: -250px;
+  left: auto;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+  right: -250px;
+  left: auto;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+  right: -250px;
+  left: auto;
+}
+
+.desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+  right: -250px;
+  left: auto;
+}
+
+.mobile-nav-area {
+  left: 50px;
+  right: auto;
+}
+
+.nav-sidebar .call-btn {
+  margin-right: 30px;
+  padding-right: 45px;
+  padding-left: unset;
+  margin-left: unset;
+}
+
+.nav-sidebar .call-btn i {
+  right: 0;
+  left: auto;
+}
+
+.nav-sidebar .nav-sidebar-btn {
+  margin-left: unset;
+  margin-right: 30px;
+}
+
+.mobile-nav-area .search-box {
+  margin-left: 7px;
+  margin-right: unset;
+}
+
+.mobile-nav-area .call-btn {
+  padding-right: 35px;
+  padding-left: unset;
+}
+
+.mobile-nav-area .call-btn i {
+  right: 0;
+  left: auto;
+  top: 48%;
+}
+
+/*=================================
+Navbar Area End
+====================================*/
+.search-overlay .search-close {
+  left: 40px;
+  right: auto;
+}
+
+.search-overlay .search-form form .input-search {
+  padding: 3px 25px 0 0;
+}
+
+.search-overlay .search-form form button {
+  left: 5px;
+  right: auto;
+}
+
+/*=================================
+Banner Bottom Area
+====================================*/
+.banner-item-two::before {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6c6c6c09), to(#232323));
+  background-image: linear-gradient(to right, #6c6c6c09, #232323);
+}
+
+.banner-content-two {
+  padding-right: 40px;
+  padding-left: unset;
+}
+
+.banner-content-two::before {
+  right: 0;
+  left: auto;
+}
+
+.banner-area-three::before {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6c6c6c09), to(#232323));
+  background-image: linear-gradient(to right, #6c6c6c09, #232323);
+}
+
+.banner-content-three .banner-list li {
+  margin-right: unset;
+  margin-left: 30px;
+}
+
+.banner-content-three .banner-list li:last-child {
+  margin-left: 0;
+}
+
+.banner-content-three .banner-list .banner-list-counter p span {
+  position: relative;
+  top: -0.5px;
+}
+
+.banner-bottom-view {
+  border-radius: 5px 0 0 5px;
+}
+
+.banner-bottom-list::before {
+  right: -20px;
+  left: auto;
+}
+
+.banner-bottom-list ul li {
+  padding-right: 35px;
+  padding-left: unset;
+}
+
+.banner-bottom-list ul li i {
+  right: 0;
+  left: auto;
+}
+
+.banner-bottom-item::before {
+  right: -20px;
+  left: auto;
+}
+
+.banner-bottom-top p i {
+  margin-left: 5px;
+  margin-right: unset;
+}
+
+.banner-bottom-top-btn {
+  float: left;
+}
+
+.banner-bottom-counter {
+  padding: 20px 0 10px 85px;
+}
+
+.banner-bottom-counter p span {
+  top: -0.5px;
+  position: relative;
+}
+
+.banner-bottom-counter::before {
+  left: 30px;
+  right: auto;
+}
+
+.banner-bottom-counter.banner-bottom-counter-pl {
+  padding: 20px 0 10px 40px;
+}
+
+.banner-bottom-counter.banner-bottom-counter-pl::before {
+  left: -15px;
+  right: auto;
+}
+
+.banner-bottom-counter-right {
+  float: left;
+}
+
+.banner-bottom-top-btn .default-btn i {
+  left: auto;
+  right: 5px;
+}
+
+/*=================================
+Banner Bottom Area End
+====================================*/
+.inner-banner .inner-title ul li {
+  margin-left: 10px;
+  margin-right: unset;
+}
+
+/*=================================
+About Area
+====================================*/
+.about-content h2::before {
+  right: 0;
+  left: auto;
+}
+
+.about-content .about-list li i {
+  margin-left: 5px;
+  margin-right: unset;
+}
+
+.about-counter-area {
+  position: relative;
+}
+
+.about-counter-area .col-lg-4:nth-child(1) .about-counter {
+  margin-left: 35px;
+  margin-right: unset;
+}
+
+.about-counter-area .col-lg-4:nth-child(2) .about-counter {
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.about-counter-area .col-lg-4:nth-child(3) .about-counter {
+  margin-right: 25px;
+  margin-left: unset;
+}
+
+.about-counter-area .col-lg-4:nth-child(4) .about-counter {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: unset;
+}
+
+.about-counter-area .col-lg-4:nth-child(5) .about-counter {
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.about-counter-area .col-lg-4:nth-child(6) .about-counter {
+  margin-top: 30px;
+  margin-right: 25px;
+  margin-left: unset;
+}
+
+.about-counter-area .about-counter-line-area .line1 {
+  left: 170px;
+}
+
+.about-counter-area .about-counter-line-area .line2 {
+  left: 365px;
+}
+
+.about-counter-area .about-counter-line-area .line3 {
+  top: 47%;
+}
+
+.about-counter p span {
+  top: -0.5px;
+  position: relative;
+}
+
+/*=================================
+About Area End
+====================================*/
+/*=================================
+Gallery Area
+====================================*/
+.gallery-counter p span {
+  position: relative;
+  top: -0.5px;
+}
+
+/*=================================
+Gallery Area End
+====================================*/
+/*=================================
+Property Description Area 
+====================================*/
+.property-description-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+.property-description-list {
+  padding-right: 90px;
+  padding-left: unset;
+}
+
+.property-description-list i {
+  right: 0;
+  left: auto;
+}
+
+.property-description-content .property-description-btn .default-btn-two {
+  margin-right: 20px;
+  margin-left: unset;
+}
+
+.property-slider.owl-theme {
+  right: calc((100% - 1300px)/2);
+  left: auto;
+}
+
+.property-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+.property-top-btn {
+  float: left;
+}
+
+.property-bottom-btn {
+  float: left;
+  margin-left: 0;
+  padding: 13px 60px 13px 13px;
+}
+
+.property-bottom-btn i {
+  right: 13px;
+  left: auto;
+}
+
+.property-features-item i {
+  left: 0;
+  right: auto;
+}
+
+.property-features-item-two i {
+  right: 0;
+  left: auto;
+}
+
+.property-features-content-ml {
+  margin-right: auto;
+  margin-left: unset;
+}
+
+.property-features-content .property-features-list li {
+  padding-right: 30px;
+  padding-left: unset;
+}
+
+.property-features-content .property-features-list li::before {
+  right: 0;
+  left: auto;
+}
+
+.property-description-btn-two {
+  float: left;
+}
+
+.property-description-list-two {
+  padding-right: 90px;
+  padding-left: unset;
+}
+
+.property-description-list-two i {
+  right: 0;
+  left: auto;
+}
+
+.property-features-content h2::before {
+  right: 0;
+  left: auto;
+}
+
+/*=================================
+Property Description Area End
+====================================*/
+.floor-plan-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+.floor-plan-content ul li span {
+  float: left;
+}
+
+.floor-plan-tab .tabs li {
+  margin-right: unset;
+  margin-left: 25px;
+}
+
+.floor-plan-tab .tabs li:last-child {
+  margin-left: 0;
+}
+
+.floor-plan-tab .tabs li::before {
+  left: -15px;
+  right: auto;
+}
+
+.agent-text h2::before {
+  right: 0;
+  left: auto;
+}
+
+.team-card .team-img .team-social {
+  left: 30px;
+  right: auto;
+}
+
+.faq-accordion .accordion .accordion-title {
+  padding: 10px 20px 7px 60px;
+}
+
+.faq-accordion .accordion .accordion-title i {
+  left: 15px;
+  right: auto;
+}
+
+/*=================================
+Neighborhood Area
+====================================*/
+.neighborhood-accordion {
+  padding: 60px 60px 60px 30px;
+}
+
+.neighborhood-accordion .accordion {
+  padding-right: 0;
+  padding-left: unset;
+}
+
+.neighborhood-accordion .accordion .accordion-title {
+  padding: 15px 0 15px 60px;
+}
+
+.neighborhood-accordion .accordion .accordion-title span {
+  float: left;
+}
+
+.neighborhood-accordion .accordion .accordion-title i {
+  left: 0;
+  right: auto;
+}
+
+.neighborhood-top-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+.neighborhood-top-btn {
+  text-align: left;
+}
+
+.neighborhood-accordion-mlt {
+  margin-left: unset;
+  margin-right: -90px;
+}
+
+.neighborhood-img .neighborhood-map-tag {
+  left: 30%;
+  right: auto;
+}
+
+.neighborhood-img .neighborhood-map-tag ul li {
+  margin-left: 10px;
+  margin-right: unset;
+}
+
+/*=================================
+Neighborhood Area End
+====================================*/
+/*=================================
+Mortgage Area
+====================================*/
+.mortgage-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+.mortgage-form-area {
+  margin-right: auto;
+  margin-left: unset;
+}
+
+.mortgage-form-area .mortgage-form-title .mortgage-form-content h3 span {
+  float: left;
+}
+
+.mortgage-form-area .mortgage-form-title .mortgage-form-content-ml {
+  margin-right: 40px;
+  margin-left: unset;
+}
+
+.mortgage-form-area .mortgage-form-title .mortgage-form-content-ml::before {
+  right: -55px;
+  left: auto;
+}
+
+.mortgage-form-area .mortgage-form .form-group .nice-select {
+  text-align: right !important;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.mortgage-form-area .mortgage-form .form-group .nice-select::after {
+  left: 10px;
+  right: auto;
+}
+
+.mortgage-form-area .mortgage-form .form-group .nice-select .option {
+  text-align: right;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.skill-bar .progress-title b {
+  float: left;
+}
+
+.skill-bar .progress-number-mark {
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+
+.mortgage-newsletter-area .mortgage-newsletter-form .subscribe-btn {
+  left: 0;
+  right: auto;
+  border-radius: 5px 0 0 5px;
+}
+
+.mortgage-right-content .mortgage-right-list li span {
+  float: left;
+}
+
+/*=================================
+Mortgage Area End
+====================================*/
+.achievement-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+/*=================================
+Amenities Area
+====================================*/
+.amenities-card .content h3 a i {
+  float: left;
+}
+
+/*=================================
+Amenities Area End
+====================================*/
+/*=================================
+Testimonials Area 
+====================================*/
+.testimonials-item .content {
+  padding-right: 95px;
+  padding-left: unset;
+}
+
+.testimonials-item .content img {
+  right: 0;
+  left: auto;
+}
+
+.testimonials-item .content-text i {
+  left: 30px;
+  right: auto;
+}
+
+.testimonials-item .content-text p {
+  margin-bottom: 0;
+}
+
+/*=================================
+Testimonials Area End
+====================================*/
+.contact-form-area .contact-form .form-group.checkbox-option p {
+  padding-right: 20px;
+  padding-left: unset;
+}
+
+.contact-form-area .contact-form .form-group.checkbox-option #chb2 {
+  right: 0;
+  left: auto;
+}
+
+.contact-form-area .contact-form .agree-label label {
+  margin-left: unset;
+  margin-right: 25px;
+}
+
+.contact-form-area .contact-form .agree-label label a.forget {
+  left: 0;
+  right: auto;
+}
+
+.contact-form-area .contact-form .agree-label #chb1 {
+  right: 0;
+  left: auto;
+}
+
+/*=================================
+Blog Area
+====================================*/
+.blog-area-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+.blog-area-btn {
+  text-align: left;
+}
+
+.blog-card .content {
+  padding: 20px 15px 13px 35px;
+}
+
+.blog-card .content .social-link li {
+  margin-right: unset;
+  margin-left: 5px;
+}
+
+.blog-card .content .social-link li:last-child {
+  margin-left: 0;
+}
+
+.blog-item .blog-tag {
+  right: 20px;
+  left: auto;
+}
+
+.blog-item .content .read-btn i {
+  left: 0;
+  margin-left: 5px;
+}
+
+.article-content-area .blockquote {
+  padding-left: unset;
+  padding-right: 40px;
+}
+
+.article-content-area .blockquote::before {
+  right: 0;
+  left: auto;
+}
+
+.blog-share-content .social-link {
+  left: 0;
+  right: auto;
+}
+
+.blog-share-content .blog-share-tag ul li.tag {
+  margin-left: 5px;
+  margin-right: unset;
+}
+
+.pagination-list ul li:last-child {
+  float: left;
+}
+
+.comments-wrap .comment-form li {
+  padding-right: 145px;
+  padding-left: unset;
+}
+
+.comments-wrap .comment-form li::before {
+  left: auto;
+  right: 110px;
+}
+
+.comments-wrap .comment-form li.pl-80 {
+  padding-right: 180px;
+  padding-left: unset;
+}
+
+.comments-wrap .comment-form li.pl-80 img {
+  right: 40px;
+  left: auto;
+}
+
+.comments-wrap .comment-form li.pl-80::before {
+  right: 150px;
+  left: auto;
+}
+
+.comments-wrap .comment-form li img {
+  right: 0;
+  left: auto;
+}
+
+.side-bar-widget .search-form button {
+  left: 0;
+  right: auto;
+}
+
+.side-bar-widget .search-form button::before {
+  right: 0;
+  left: auto;
+}
+
+.side-bar-widget .side-bar-categories ul li a.active {
+  border-left: none;
+  border-right: 2px solid #75C147;
+}
+
+.side-bar-widget .side-bar-categories ul li a i {
+  float: left;
+}
+
+.side-bar-widget .widget-popular-post .item .thumb {
+  float: right;
+  margin-left: 20px;
+  margin-right: unset;
+}
+
+.side-bar-widget span i {
+  float: right;
+  margin-left: 5px;
+  margin-right: unset;
+}
+
+/*=================================
+Blog Area End
+====================================*/
+/*=================================
+Newsletter Area
+====================================*/
+.newsletter-area {
+  margin-right: 100px;
+  margin-left: unset;
+}
+
+.newsletter-area .newsletter-form .subscribe-btn {
+  right: auto;
+  left: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-title h2::before {
+  right: 0;
+  left: auto;
+}
+
+/*=================================
+Newsletter Area End
+====================================*/
+/*=================================
+Footer Area 
+====================================*/
+.footer-widget .contact-list li {
+  padding-right: 30px;
+  padding-left: unset;
+}
+
+.footer-widget .contact-list li i {
+  right: 0;
+  left: auto;
+}
+
+.footer-widget .social-link li {
+  margin-left: 10px;
+  margin-right: unset;
+}
+
+.footer-widget .social-link li:last-child {
+  margin-left: 0;
+}
+
+.footer-widget .footer-articles li {
+  padding-right: 80px;
+  padding-left: unset;
+}
+
+.footer-widget .footer-articles li .img-link {
+  right: 0;
+  left: auto;
+}
+
+.footer-widget .contact-info-list {
+  padding-right: 65px;
+  padding-left: unset;
+}
+
+.footer-widget .contact-info-list::before {
+  right: 46px;
+  left: auto;
+}
+
+.footer-widget .contact-info-list i {
+  right: 0;
+  left: auto;
+}
+
+.copy-right-text {
+  float: right;
+}
+
+.copy-right-list {
+  float: left;
+}
+
+.copy-right-list ul li {
+  margin-left: 30px;
+  margin-right: unset;
+}
+
+.copy-right-list ul li::before {
+  left: -18px;
+  right: auto;
+}
+
+.copy-right-list ul li:last-child {
+  margin-left: 0;
+}
+
+.copy-right-list ul li:last-child::before {
+  display: none;
+}
+
+/*=================================
+Footer Area End
+====================================*/
+.coming-soon-area .coming-soon-content .newsletter-form .input-newsletter {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.coming-soon-area .coming-soon-content .newsletter-form .default-btn {
+  left: 0;
+  right: auto;
+}
+
+.go-top {
+  left: 3%;
+  right: auto;
+}
+
+/*==========================
+    Responsive CSS
+============================*/
+@media only screen and (max-width: 767px) {
+  .pl-20 {
+    padding-left: unset;
+    padding-right: 0;
+  }
+  .pr-20 {
+    padding-left: 0;
+    padding-right: unset;
+  }
+  .ps-0 {
+    padding-right: 12px !important;
+    padding-left: unset;
+  }
+  .pe-0 {
+    padding-left: 12px !important;
+    padding-right: unset;
+  }
+  .ps-2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .ps-3 {
+    padding-left: unset !important;
+    padding-right: 0 !important;
+  }
+  .ps-5 {
+    padding-left: unset !important;
+    padding-right: 0 !important;
+  }
+  .ps-0 {
+    padding-left: 12px !important;
+  }
+  .pe-0 {
+    padding-right: 12px !important;
+  }
+  .p-0 {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .header-left {
+    float: none;
+  }
+  .head-right {
+    float: none;
+  }
+  .head-right .header-btn {
+    margin-left: unset;
+    margin-right: 0;
+  }
+  .head-right .languages {
+    margin-right: -10px;
+  }
+  .head-right .languages.languages-pt {
+    margin-right: 0;
+  }
+  .head-right .social-link li {
+    margin-left: 10px;
+  }
+  .head-right .social-link li:last-child {
+    margin-left: 10px;
+  }
+  .banner-content-two {
+    padding-right: 0;
+    padding-left: unset;
+  }
+  .banner-bottom-counter {
+    padding: 10px;
+  }
+  .banner-bottom-counter.banner-bottom-counter-pl {
+    padding: 10px;
+  }
+  .banner-bottom-counter-right {
+    float: none;
+  }
+  .banner-bottom-top-btn {
+    float: none;
+  }
+  .about-counter-area {
+    position: relative;
+  }
+  .about-counter-area .col-lg-4:nth-child(1) .about-counter {
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(2) .about-counter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(3) .about-counter {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(4) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(5) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(6) .about-counter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .gallery-slider .owl-nav .owl-prev {
+    left: -75px;
+  }
+  .gallery-slider .owl-nav .owl-next {
+    right: -75px;
+  }
+  .property-description-list {
+    padding-right: 70px;
+    padding-left: unset;
+  }
+  .property-description-list h3 {
+    font-size: 17px;
+  }
+  .property-description-content .property-description-btn .default-btn-two {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .property-top-btn {
+    float: none;
+  }
+  .property-slider.owl-theme {
+    right: 0;
+    left: auto;
+  }
+  .property-bottom-btn {
+    margin-bottom: 30px;
+    float: none;
+  }
+  .property-description-btn-two {
+    float: none;
+  }
+  .property-description-list-two {
+    padding-right: 75px;
+    padding-left: unset;
+  }
+  .neighborhood-accordion-mlt {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .property-features-content-ml {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .neighborhood-accordion {
+    padding: 20px 20px 40px 20px;
+  }
+  .neighborhood-top-btn {
+    text-align: right;
+  }
+  .mortgage-form-area .mortgage-form-title .mortgage-form-content-ml {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .blog-area-btn {
+    text-align: right;
+  }
+  .blog-card .content {
+    padding: 20px 28px 13px 20px;
+  }
+  .comments-wrap .comment-form li {
+    padding-right: 0;
+    padding-left: unset;
+  }
+  .comments-wrap .comment-form li.pl-80 {
+    padding-right: 0;
+    padding-left: unset;
+  }
+  .comments-wrap .comment-form li.pl-80 img {
+    right: 0;
+    left: auto;
+  }
+  .article-content-area .blockquote {
+    padding-left: unset;
+    padding-right: 20px;
+  }
+  .newsletter-area {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .footer-widget .footer-articles li {
+    padding-right: 70px;
+    padding-left: unset;
+  }
+  .footer-widget .contact-info-list {
+    padding-right: 35px;
+    padding-left: unset;
+  }
+  .copy-right-text {
+    float: none;
+  }
+  .copy-right-list {
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .property-description-content .property-description-btn .default-btn-two {
+    margin-right: 20px;
+    margin-left: unset;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pl-20 {
+    padding-left: unset;
+    padding-right: 0;
+  }
+  .pr-20 {
+    padding-left: 0;
+    padding-right: unset;
+  }
+  .ps-0 {
+    padding-right: 12px !important;
+    padding-left: unset;
+  }
+  .pe-0 {
+    padding-left: 12px !important;
+    padding-right: unset;
+  }
+  .ps-2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .ps-3 {
+    padding-left: unset !important;
+    padding-right: 0 !important;
+  }
+  .ps-5 {
+    padding-left: unset !important;
+    padding-right: 0 !important;
+  }
+  .ps-0 {
+    padding-left: 12px !important;
+  }
+  .pe-0 {
+    padding-right: 12px !important;
+  }
+  .p-0 {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .head-right .header-btn {
+    margin-left: unset;
+    margin-right: 15px;
+  }
+  .head-right .social-link li {
+    margin-left: 10px;
+  }
+  .head-right .social-link li:last-child {
+    margin-left: 10px;
+  }
+  .banner-content-two {
+    padding-right: 0;
+    padding-left: unset;
+    max-width: 450px;
+  }
+  .about-counter-area {
+    position: relative;
+  }
+  .about-counter-area .col-lg-4:nth-child(1) .about-counter {
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(2) .about-counter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(3) .about-counter {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(4) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(5) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(6) .about-counter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .property-description-list {
+    padding-right: 75px;
+    padding-left: unset;
+  }
+  .property-slider.owl-theme {
+    right: 0;
+    left: auto;
+  }
+  .property-bottom-btn {
+    float: none;
+  }
+  .property-description-btn-two {
+    float: none;
+  }
+  .property-description-list-two {
+    padding-right: 75px;
+    padding-left: unset;
+  }
+  .mortgage-form-area .mortgage-form-title .mortgage-form-content-ml {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .property-features-content-ml {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .neighborhood-accordion {
+    padding: 20px 30px 40px 30px;
+  }
+  .neighborhood-top-btn {
+    text-align: right;
+  }
+  .neighborhood-accordion-mlt {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .newsletter-area {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .footer-widget .contact-info-list {
+    padding-right: 35px;
+    padding-left: unset;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ps-2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .ps-3 {
+    padding-left: unset !important;
+    padding-right: 0 !important;
+  }
+  .ps-5 {
+    padding-left: unset !important;
+    padding-right: 0 !important;
+  }
+  .banner-bottom-counter {
+    padding: 0;
+    text-align: right;
+  }
+  .banner-bottom-counter.banner-bottom-counter-pl {
+    padding: 0;
+  }
+  .banner-bottom-counter-right h3 {
+    font-size: 30px;
+  }
+  .about-counter-area {
+    position: relative;
+  }
+  .about-counter-area .col-lg-4:nth-child(1) .about-counter {
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(2) .about-counter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(3) .about-counter {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(4) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(5) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(6) .about-counter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .property-slider.owl-theme {
+    right: calc((100% - 1120px)/2);
+    left: auto;
+  }
+  .property-description-list {
+    padding-right: 0;
+    padding-left: unset;
+  }
+  .property-description-list-two {
+    padding-right: 0;
+    padding-left: unset;
+  }
+  .neighborhood-accordion {
+    padding: 20px 30px 30px 10px;
+  }
+  .neighborhood-accordion-mlt {
+    max-width: 410px;
+    margin-right: -110px;
+  }
+  .mortgage-form-area .mortgage-form-title .mortgage-form-content-ml {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .blog-card .content {
+    padding: 20px 0 13px 20px;
+  }
+  .footer-widget .contact-info-list {
+    padding-right: 35px;
+    padding-left: unset;
+  }
+  .footer-widget .social-link li {
+    margin-left: 5px;
+    margin-right: unset;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .about-counter-area {
+    position: relative;
+  }
+  .about-counter-area .col-lg-4:nth-child(1) .about-counter {
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(2) .about-counter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(3) .about-counter {
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(4) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: unset;
+  }
+  .about-counter-area .col-lg-4:nth-child(5) .about-counter {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-counter-area .col-lg-4:nth-child(6) .about-counter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: unset;
+  }
+  .property-description-list {
+    padding-right: 70px;
+    padding-left: unset;
+  }
+  .property-description-list-two {
+    padding-right: 0;
+    padding-left: unset;
+  }
+  .neighborhood-accordion {
+    padding: 20px 40px 38px 20px;
+  }
+  .mortgage-form-area .mortgage-form-title .mortgage-form-content-ml::before {
+    right: -30px;
+    left: auto;
+  }
+  .blog-card .content {
+    padding: 20px 5px 13px 10px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .neighborhood-accordion-mlt {
+    margin-left: unset;
+    margin-right: -180px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mobile-responsive-nav {
+    display: block;
+  }
+  .mobile-responsive-nav .mobile-responsive-menu {
+    position: relative;
+  }
+  .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a {
+    float: right;
+    text-align: right;
+  }
+  .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.mean-expand {
+    text-align: left;
+    left: 0;
+    right: auto;
+  }
+  .mobile-responsive-nav .mean-container a.meanmenu-reveal {
+    left: 0 !important;
+    right: auto !important;
+  }
+  .mobile-responsive-nav .mean-container a.meanmenu-reveal span {
+    height: 4px;
+    margin-top: -6px;
+    border-radius: 3px;
+    position: relative;
+    top: 8px;
+  }
+  .mobile-responsive-nav .mean-container .mean-bar {
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=rtl.css.map */

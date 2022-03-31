@@ -58,15 +58,47 @@ namespace ShopManagement.Application
 
         }
 
-        public ProductCategoryViewModel GetDetails(int Id)
+        public List<EditProductCategoryModel> GetAll()
+        {
+            List<EditProductCategoryModel> result = new List<EditProductCategoryModel>();
+            foreach(var productCategory in productCategoryRepository.GetAll())
+            {
+                result.Add(new EditProductCategoryModel
+                {
+                    Id = productCategory.Id,
+                    Name = productCategory.Name,
+                    Picture = productCategory.Picture,
+                    Description = productCategory.Description,
+                    Keywords = productCategory.Keywords,
+                    MetaDescription = productCategory.MetaDescription,
+                    PictureAlt = productCategory.PictureAlt,
+                    PictureTitle = productCategory.PictureTitle,
+                    Slug = productCategory.Slug,
+                     CreationDate = productCategory.CreationDate.ToString()
+                    
+
+                });
+            }
+            return result;
+
+
+
+        }
+
+        public EditProductCategoryModel GetDetails(int Id)
         {
             var productCategory = productCategoryRepository.Get(Id);
-            return new ProductCategoryViewModel
+            return new EditProductCategoryModel
             {
-                CreationDate = productCategory.CreationDate.ToString(),
                 Id = productCategory.Id,
                 Name = productCategory.Name,
-                Picture = productCategory.Picture
+                Picture = productCategory.Picture,
+                Description = productCategory.Description,
+                Keywords = productCategory.Keywords,
+                MetaDescription = productCategory.MetaDescription,
+                PictureAlt = productCategory.PictureAlt,
+                PictureTitle = productCategory.PictureTitle,
+                Slug = productCategory.Slug
 
             };
         }

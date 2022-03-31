@@ -10,5 +10,6 @@ namespace ShopManagement.Application.Contracts.ProductCategory
     public class EditProductCategoryModel :CreateProductCategoryModel
     {
         public int Id { get; set; }
+        public string CreationDate { get; set; }
     }
 }

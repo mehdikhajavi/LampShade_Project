@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
+using ShopManagement.Presentation.API;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,11 +25,12 @@ namespace ServiceHost
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("LampshadeDb");
-
-
             ShopManagementBootstraper.Configure(services, connectionString);
 
-            services.AddRazorPages();
+
+
+            services.AddRazorPages()
+                .AddApplicationPart(typeof(ProductCategoryController).Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +54,7 @@ namespace ServiceHost
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

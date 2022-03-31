@@ -1,0 +1,560 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Coderthemes">
+
+    <link rel="shortcut icon" href="images/favicon_1.ico">
+
+    <title>@ViewData["Title"] | Lampshade Shop</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+ 
+        <link href="~/font/iconsmind-s/css/iconsminds.css" rel="stylesheet" />
+    <link href="~/font/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
+    <link href="~/font/vazir/css/vazir.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="~/css/Admin/bootstrap.rtl.only.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.0/css/perfect-scrollbar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.6/css/star-rating.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.0.0/nouislider.min.css">
+    <link href="~/css/Admin/component-custom-switch.min.css" rel="stylesheet" />
+    <link href="~/css/Admin/Main.css" rel="stylesheet" />
+    <link href="~/css/Admin/PersianDate.css" rel="stylesheet" />
+    <link href="~/css/Admin/kendo/kendo.common-material.min.css" rel="stylesheet" />
+    <link href="~/css/Admin/kendo/kendo.material.mobile.min.css" rel="stylesheet" />
+    <link href="~/css/Admin/kendo/kendo.rtl.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css" integrity="sha512-xmGTNt20S0t62wHLmQec2DauG9T+owP9e6VU8GigI0anN7OXLip9i7IwEhelasml2osdxX71XcYm6BQunTQeQg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    @RenderSection("Css", false)
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .customer-photo {
+            border: 2px solid #236591;
+        }
+
+        .k-window-titlebar.k-header {
+            background-color: #3f51b5 !important
+        }
+
+        .rtl.rounded .data-table-rows table td {
+            direction: ltr;
+            text-align: center;
+            text-align-last: center;
+        }
+
+        .k-button.k-button-icontext.k-grid-delete {
+            color: white !important;
+            background-color: #990000 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-delete :hover {
+                color: #990000 !important;
+                border: 1px solid #990000;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .alert {
+            z-index: 99999 !important
+        }
+
+        .k-rtl .k-gantt-timeline .k-grid-header .k-header, .k-rtl .k-grid-header th.k-header {
+            text-align: -webkit-center !important;
+            text-align: center !important;
+            text-align-last: center !important
+        }
+
+        .k-window-titlebar .k-window-actions {
+            right: auto !important;
+            left: 8px !important
+        }
+
+        .k-window-titlebar {
+            background-color: #236591 !important
+        }
+
+        .k-popup.k-context-menu, .k-popup.k-list-container {
+            border-width: 0px !important
+        }
+
+        .k-current-page {
+            margin-bottom: 0px !important
+        }
+
+        .k-button.k-button-icontext.k-grid-edit {
+            color: white !important;
+            background-color: #445862 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-edit :hover {
+                color: #445862 !important;
+                border: 1px solid #445862;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-delete {
+            color: white !important;
+            background-color: #990000 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-delete :hover {
+                color: #990000 !important;
+                border: 1px solid #990000;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-tell {
+            color: white !important;
+            background-color: #009900 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-tell :hover {
+                color: #009900 !important;
+                border: 1px solid #009900;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-company {
+            color: white !important;
+            background-color: #083644 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-company :hover {
+                color: #083644 !important;
+                border: 1px solid #083644;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-ResetPassword {
+            color: white !important;
+            background-color: #8a84b8 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-ResetPassword :hover {
+                color: #8a84b8 !important;
+                border: 1px solid #8a84b8;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-detail {
+            color: white !important;
+            background-color: #019 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-detail :hover {
+                color: #019 !important;
+                border: 1px solid #019;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-role {
+            color: white !important;
+            background-color: #1b8755 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-role :hover {
+                color: #1b8755 !important;
+                border: 1px solid #1b8755;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-address {
+            color: white !important;
+            background-color: #cccc00 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-address:hover {
+                color: #cccc00 !important;
+                border: 1px solid #cccc00;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-info {
+            color: white !important;
+            background-color: #17a2b8 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-info:hover {
+                color: #17a2b8 !important;
+                border: 1px solid #17a2b8;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-media {
+            color: white !important;
+            background-color: #d61578 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-media:hover {
+                color: #d61578 !important;
+                border: 1px solid #d61578;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-brand {
+            color: white !important;
+            background-color: #9c17b8 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-brand:hover {
+                color: #9c17b8 !important;
+                border: 1px solid #9c17b8;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-color {
+            color: white !important;
+            background-color: #6017b8 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-color:hover {
+                color: #6017b8 !important;
+                border: 1px solid #6017b8;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-techProp {
+            color: white !important;
+            background-color: #b8a613 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-techProp:hover {
+                color: #b8a613 !important;
+                border: 1px solid #b8a613;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-prop {
+            color: white !important;
+            background-color: #1729b8 !important;
+            border-radius: 6px !important
+        }
+
+            .k-button.k-button-icontext.k-grid-prop:hover {
+                color: #1729b8 !important;
+                border: 1px solid #1729b8;
+                background-color: white !important;
+                border-radius: 6px !important
+            }
+
+        .k-button.k-button-icontext.k-grid-city {
+            color: white !important;
+            background-color: #cccc00 !important;
+            border-radius: 6px !important
+        }
+
+        .k-button.k-button-icontext.k-grid-region:hover {
+            color: #17a2b8 !important;
+            border: 1px solid #17a2b8;
+            background-color: white !important;
+            border-radius: 6px !important
+        }
+
+        .k-button.k-button-icontext.k-grid-region {
+            color: white !important;
+            background-color: #cccc00 !important;
+            border-radius: 6px !important
+        }
+
+        .k-button.k-button-icontext.k-grid-city:hover {
+            color: #cccc00 !important;
+            border: 1px solid #cccc00;
+            background-color: white !important;
+            border-radius: 6px !important
+        }
+
+        .k-grid-header th.k-header, div.k-grid-header, .k-grid {
+            border: none !important
+        }
+
+        div.k-grid-header {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: none !important
+        }
+
+        .k-pager-wrap {
+            border: none !important
+        }
+
+        .rtl.rounded .data-table-rows table td {
+            border: none
+        }
+
+        .k-grid-content table {
+            border-spacing: 0 1rem
+        }
+
+        .k-pane-wrapper .k-pane, #plotId {
+            font-family: vazir !important
+        }
+
+        body {
+            overflow-y: auto;
+        }
+        /*.k-pane-wrapper .k-pane*/
+        /*     ::-webkit-scrollbar{
+            width: 0px !important;
+        }*/
+
+        /*theme*/
+
+    </style>
+
+
+
+</head>
+
+<body id="app-container" class="menu-default show-spinner rtl rounded ">
+
+
+
+    <nav class="navbar fixed-top">
+
+        <div class="d-flex align-items-center navbar-left">
+            <a href="#" class="menu-button d-none d-md-block"><svg class="main" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 17"><rect x="0.48" y="0.5" width="7" height="1" /><rect x="0.48" y="7.5" width="7" height="1" /><rect x="0.48" y="15.5" width="7" height="1" /></svg> <svg class="sub" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 17"><rect x="1.56" y="0.5" width="16" height="1" /><rect x="1.56" y="7.5" width="16" height="1" /><rect x="1.56" y="15.5" width="16" height="1" /></svg> </a><a href="#" class="menu-button-mobile d-xs-block d-sm-block d-md-none"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 17"><rect x="0.5" y="0.5" width="25" height="1" /><rect x="0.5" y="7.5" width="25" height="1" /><rect x="0.5" y="15.5" width="25" height="1" /></svg></a>
+        </div><a class="navbar-logo" href="/">
+
+            <span class="logo d-md-block">
+
+            </span>
+
+
+        </a>
+
+        <div class="navbar-right">
+
+            <div class="header-icons d-inline-block align-middle">
+
+                <div class=" d-md-inline-block align-text-bottom mr-3">
+
+                    <div class="custom-switch custom-switch-primary-inverse custom-switch-small pl-1" data-toggle="tooltip" data-placement="left" title="Dark Mode">
+                        <input class="custom-switch-input" id="switchDark" type="checkbox" checked="checked">
+                        <label class="custom-switch-btn  mt-2 mt-sm-0" for="switchDark">
+                        </label>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="user d-inline-block">
+                <button class="btn btn-empty p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <span class="name">
+                        @*@User?.Claims.Where(user => user.Type == "UserName").ToList()[0].Value*@
+                    </span>
+
+                    <span>
+                        @*<img alt="Profile Picture" src="/FileName/@User?.Claims.Where(user => user.Type == "UserInfoImage").ToList()[0].Value">*@
+                    </span>
+                </button>
+
+                <div class="dropdown-menu dropdown-menu-right mt-3">
+                    <a class="dropdown-item" href="/authentication/logout">خروج</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menu">
+
+        <div class="main-menu">
+
+            <div class="scroll">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#user">
+                            <i class="iconsminds-user"></i>
+
+                            <span>
+                                کاربری
+                            </span>
+                        </a>
+                    </li>
+                  <li >
+                        <a href="#projects">
+                            <i class="iconsminds-box-with-folders"></i>
+
+                            <span>
+                                پروژه ها
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#manager">
+                            <i class="iconsminds-chair"></i>
+
+                            <span>
+                                مدیریت
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sub-menu">
+
+            <div class="scroll">
+                <ul class="list-unstyled" data-link="user">
+                    <li>
+                        <a href="/admin">
+                            <i class="iconsminds-home"></i>
+
+                            <span class="d-inline-block">
+                                خانه
+                            </span>
+                        </a>
+                    </li>
+              @*      <li>
+                        <a href="/admin/home/medialibrary">
+                            <i class="simple-icon-cloud-upload"></i>
+
+                            <span class="d-inline-block">
+                                کتابخانه چندرسانه ای
+                            </span>
+                        </a>
+                    </li>*@
+
+
+                </ul>
+            
+                   <ul class="list-unstyled" data-link="projects">
+                    <li>
+                        <a href="/admin/Users">
+                            <i class="iconsminds-male-female
+"></i>
+
+                            <span class="d-inline-block">
+                                کاربران
+                            </span>
+                        </a>
+                    </li>
+         
+
+                </ul>
+                <ul class="list-unstyled" data-link="manager">
+                         <li>
+                        <a href="/admin/Users">
+                            <i class="iconsminds-male-female
+"></i>
+
+                            <span class="d-inline-block">
+                                کاربران
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/admin/Petrochemicals">
+                            <i class="iconsminds-factory-1"></i>
+
+                            <span class="d-inline-block">
+                                 پتروشیمی ها
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main style="position:absolute">
+        @RenderBody()
+    </main>
+    <input type="text" id="copyClipboard" style="display:none">
+
+
+
+      <div id="MainModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content" id="ModalContent">
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <script src="~/js/Admin/ajax.js"></script>
+    <script src="~/js/Admin/bootstrap-notify.min.js"></script>
+    <script src="~/js/Admin/commonjs.js"></script>
+    <script src="~/js/Admin/JalaliDate.js"></script>
+    <script src="~/js/Admin/persian.date.min.js"></script>
+    <script src="~/js/Admin/persian.datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="~/js/Admin/CustomAdmin.js"></script>
+    <script src="~/js/Admin/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.0/perfect-scrollbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bar-rating/1.2.2/jquery.barrating.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.5/mousetrap.min.js"></script>
+    <script src="~/js/Admin/core.script.js"></script>
+    <script src="~/js/Admin/scripts.js"></script>
+    @*<script src="~/js/Admin/jszip.min.js"></script>*@
+    <script src="~/js/Admin/kendo.all.min.js"></script>
+    <script src="~/localizaton/kendoUi.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.min.js" integrity="sha512-9UR1ynHntZdqHnwXKTaOm1s6V9fExqejKvg5XMawEMToW4sSw+3jtLrYfZPijvnwnnE8Uol1O9BcAskoxgec+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://clipboardjs.com/dist/clipboard.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/Admin/site.js"></script>
+
+    
+    @RenderSection("Scripts", false)
+
+
+    <script>
+        var clipboard = new ClipboardJS('.clipBoradBtn');
+
+        clipboard.on('success', function (e) {
+            NotifyMessage('آدرس مورد نظر کپی شد! ')
+            e.clearSelection();
+        });
+    </script>
+
+
+
+
+
+</body>
+</html>

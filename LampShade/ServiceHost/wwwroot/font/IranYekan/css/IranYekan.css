@@ -1,0 +1,27 @@
+﻿@font-face {
+    font-family: 'vazir';
+    src: url('../Fonts/vazir.ttf') format('truetype'), url('../Fonts/vazir.woff') format('woff'), url('../Fonts/vazir.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../Fonts/bold/iranyekanwebboldfanum.woff') format('woff'), 
+        url('../Fonts/bold/iranyekanwebboldfanum.ttf') format('truetype');
+}
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../Fonts/light/iranyekanweblightfanum.woff') format('woff'), 
+        url('../Fonts/light/iranyekanweblightfanum.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts/regular/iranyekanwebregularfanum.woff') format('woff'),
+        url('../Fonts/regular/iranyekanwebregularfanum.ttf') format('truetype');
+}

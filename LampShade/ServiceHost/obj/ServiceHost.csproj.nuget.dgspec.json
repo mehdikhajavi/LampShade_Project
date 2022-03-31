@@ -90,6 +90,9 @@
             "projectReferences": {
               "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
                 "projectPath": "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+              },
+              "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Presentation.API\\ShopManagement.Presentation.API.csproj": {
+                "projectPath": "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Presentation.API\\ShopManagement.Presentation.API.csproj"
               }
             }
           }
@@ -103,6 +106,18 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -425,6 +440,70 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Presentation.API\\ShopManagement.Presentation.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Presentation.API\\ShopManagement.Presentation.API.csproj",
+        "projectName": "ShopManagement.Presentation.API",
+        "projectPath": "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Presentation.API\\ShopManagement.Presentation.API.csproj",
+        "packagesPath": "C:\\Users\\mohammad mahdi\\.nuget\\packages\\",
+        "outputPath": "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Presentation.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohammad mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "X:\\Microsoft Visual Studio-Project\\LampShade_project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
             }
           },
           "imports": [
